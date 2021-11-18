@@ -89,3 +89,133 @@ header{
     font-size: 25px;
 }
 
+/* Quien soy */
+
+.subtitulo{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.contenedor-quien-soy{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.contenedor-quien-soy img{
+    width: 40%;
+}
+
+.contenido-quien-soy{
+    width: 45%;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    padding: 100px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+/* Estudios */
+
+
+.contenedor-estudios-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-estudios-1 img{
+    width: 40%;
+}
+
+.contenido-estudios-2{
+    width: 45%;
+    background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
+    padding: 100px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.contenido-estudios-3{
+    display: flex;
+}
+
+.contenido-estudios-3 img{
+    width: 300px;
+}
+
+/* Proyectos */
+
+.contenedor-proyectos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenido-proyectos{
+    width: 45%;
+    background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+    padding: 100px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.contenido-proyectos-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.imagen-light{
+    position: fixed;
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(100%);
+    transition: transform .2 ease-in-out;
+}
+
+.mostrar{
+    transform: translate(0);
+}
+
+.agg-img{
+    width: 60%;
+    border-radius: 10px;
+    transform:scale(0);
+    transition: transform .3s .2s;
+}
+
+.mostrar-Imagen{
+    transform: scale(1);
+}
+
+.close{
+    position: absolute;
+    top: 15px; 
+    right: 15px;
+    width: 40px;
+    cursor: pointer;
+}
